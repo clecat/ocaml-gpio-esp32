@@ -2,5 +2,6 @@
  (name        gpio)
  (public_name gpio)
  (modules     gpio)
+ (c_names     driver.c)
  (no_dynlink)
  (libraries   cstruct))
