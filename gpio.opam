@@ -3,7 +3,7 @@ maintainer:   "Charles-Edouard Lecat (@clecat)"
 license:      "ISC"
 authors: []
 tags: []
-build: [ "jbuilder" "build" "-x" "esp32" "-p" "lcd"]
+build: [ "jbuilder" "build" "-x" "esp32" "-p" "gpio"]
 
 depends: [
   "ocamlfind" {build}
