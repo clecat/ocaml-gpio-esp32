@@ -1,6 +1,0 @@
-(library
- (name        gpio)
- (public_name gpio)
- (modules     gpio)
- (no_dynlink)
- (libraries   cstruct))
