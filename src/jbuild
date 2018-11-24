@@ -1,8 +1,0 @@
-(jbuild_version 1)
-
-(library
- ((name        gpio)
-  (public_name gpio)
-  (c_names   (driver))
-  (no_dynlink)
-  (libraries (cstruct))))

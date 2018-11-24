@@ -3,12 +3,14 @@ maintainer:   "Charles-Edouard Lecat (@clecat)"
 license:      "ISC"
 authors: []
 tags: []
-build: [ "jbuilder" "build" "-x" "esp32" "-p" "gpio"]
+build: [
+  [ "dune" "build" "-x" "esp32" "-p" name "-j" jobs ]
+]
 
 depends: [
   "ocamlfind" {build}
-  "jbuilder" {build}
   "ocb-stubblr" {build}
+  "dune"           {build}
   "cstruct-esp32"
   "ocaml-esp32"
   "esp32-idf-headers"
