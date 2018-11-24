@@ -1,0 +1,18 @@
+opam-version: "0.1"
+maintainer:   "Charles-Edouard Lecat (@clecat)"
+license:      "ISC"
+authors: []
+tags: []
+build: [
+  [ "dune" "build" "-x" "esp32" "-p" name "-j" jobs ]
+]
+
+depends: [
+  "ocamlfind" {build}
+  "ocb-stubblr" {build}
+  "dune"           {build}
+  "cstruct-esp32"
+  "ocaml-esp32"
+  "esp32-idf-headers"
+]
+available: [ ocaml-version >= "4.06.0" ]

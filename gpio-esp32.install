@@ -1,0 +1,16 @@
+lib: [
+  "_build/install/default/lib/gpio/META" {"META"}
+  "_build/install/default/lib/gpio/gpio.a" {"gpio.a"}
+  "_build/install/default/lib/gpio/gpio.cma" {"gpio.cma"}
+  "_build/install/default/lib/gpio/gpio.cmi" {"gpio.cmi"}
+  "_build/install/default/lib/gpio/gpio.cmt" {"gpio.cmt"}
+  "_build/install/default/lib/gpio/gpio.cmx" {"gpio.cmx"}
+  "_build/install/default/lib/gpio/gpio.cmxa" {"gpio.cmxa"}
+  "_build/install/default/lib/gpio/gpio.dune" {"gpio.dune"}
+  "_build/install/default/lib/gpio/gpio.ml" {"gpio.ml"}
+  "_build/install/default/lib/gpio/opam" {"opam"}
+]
+doc: [
+  "_build/install/default/doc/gpio/LICENSE"
+  "_build/install/default/doc/gpio/README.md"
+]
