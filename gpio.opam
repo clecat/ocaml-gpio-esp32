@@ -8,9 +8,9 @@ build: [
 ]
 
 depends: [
-  "ocamlfind" {build}
+  "ocamlfind"   {build}
+  "dune"        {build}
   "ocb-stubblr" {build}
-  "dune"           {build}
   "cstruct-esp32"
   "ocaml-esp32"
   "esp32-idf-headers"
