@@ -4,6 +4,7 @@ license:      "ISC"
 authors: []
 tags: []
 build: [
+  [ "dune" "subst"]
   [ "dune" "build" "-x" "esp32" "-p" name "-j" jobs ]
 ]
 

@@ -1,16 +1,13 @@
 lib: [
-  "_build/install/default/lib/gpio/META" {"META"}
-  "_build/install/default/lib/gpio/gpio.a" {"gpio.a"}
-  "_build/install/default/lib/gpio/gpio.cma" {"gpio.cma"}
-  "_build/install/default/lib/gpio/gpio.cmi" {"gpio.cmi"}
-  "_build/install/default/lib/gpio/gpio.cmt" {"gpio.cmt"}
-  "_build/install/default/lib/gpio/gpio.cmx" {"gpio.cmx"}
-  "_build/install/default/lib/gpio/gpio.cmxa" {"gpio.cmxa"}
-  "_build/install/default/lib/gpio/gpio.dune" {"gpio.dune"}
-  "_build/install/default/lib/gpio/gpio.ml" {"gpio.ml"}
-  "_build/install/default/lib/gpio/opam" {"opam"}
-]
-doc: [
-  "_build/install/default/doc/gpio/LICENSE"
-  "_build/install/default/doc/gpio/README.md"
+  "_build/install/default.esp32/lib/gpio/META" {"../../esp32-sysroot/lib/gpio/META"}
+  "_build/install/default.esp32/lib/gpio/opam" {"../../esp32-sysroot/lib/gpio/opam"}
+  "_build/install/default.esp32/lib/gpio/gpio.cmi" {"../../esp32-sysroot/lib/gpio/gpio.cmi"}
+  "_build/install/default.esp32/lib/gpio/gpio.cmx" {"../../esp32-sysroot/lib/gpio/gpio.cmx"}
+  "_build/install/default.esp32/lib/gpio/gpio.cmt" {"../../esp32-sysroot/lib/gpio/gpio.cmt"}
+  "_build/install/default.esp32/lib/gpio/gpio.ml" {"../../esp32-sysroot/lib/gpio/gpio.ml"}
+  "_build/install/default.esp32/lib/gpio/gpio.cma" {"../../esp32-sysroot/lib/gpio/gpio.cma"}
+  "_build/install/default.esp32/lib/gpio/libgpio_stubs.a" {"../../esp32-sysroot/lib/gpio/libgpio_stubs.a"}
+  "_build/install/default.esp32/lib/gpio/gpio.cmxa" {"../../esp32-sysroot/lib/gpio/gpio.cmxa"}
+  "_build/install/default.esp32/lib/gpio/gpio.a" {"../../esp32-sysroot/lib/gpio/gpio.a"}
+  "_build/install/default.esp32/lib/gpio/gpio.dune" {"../../esp32-sysroot/lib/gpio/gpio.dune"}
 ]
