@@ -5,12 +5,11 @@ authors: []
 tags: []
 build: [
   [ "dune" "subst"]
-  [ "dune" "build" "-x" "esp32" "-p" name "-j" jobs ]
+  [ "dune" "build" "-x" "esp32" "-j" jobs ]
 ]
 
 depends: [
-  "ocamlfind"   {build}
-  "dune"        {build}
+  "ocamlfind" {build}
   "ocb-stubblr" {build}
   "cstruct-esp32"
   "ocaml-esp32"
