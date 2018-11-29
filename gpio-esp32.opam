@@ -10,6 +10,7 @@ build: [
 
 depends: [
   "ocamlfind" {build}
+  "dune" {build}
   "ocb-stubblr" {build}
   "cstruct-esp32"
   "ocaml-esp32"
