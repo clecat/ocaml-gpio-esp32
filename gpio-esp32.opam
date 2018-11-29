@@ -1,6 +1,7 @@
 opam-version: "0.1"
 maintainer:   "Charles-Edouard Lecat (@clecat)"
 license:      "ISC"
+version:      "0.1"
 authors: []
 tags: []
 build: [
